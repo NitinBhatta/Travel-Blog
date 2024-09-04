@@ -96,7 +96,17 @@ header ul > li:hover {
 .latest {
   background: url(/Assets/b.jpg) no-repeat center;
 }
-.latest > .container {
+.main {
+  display: flex;
+}
+
+.articles {
+  background-color: red;
+  width: 66%;
+}
+.side-links {
+  background-color: blue;
+  width: 34%;
 }
 /* <!-- Recommnedation  --> */
 
