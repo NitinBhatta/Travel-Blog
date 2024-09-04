@@ -1,0 +1,82 @@
+/* :root{
+    --primarycolor
+} */
+
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* <!-- global message --> */
+.global {
+  background: skyblue;
+}
+.global > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <!-- header section  --> */
+header {
+  background-color: rgb(32, 18, 81);
+  color: white;
+  padding: 10px 0;
+  font-size: 24px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-color: white;
+  color: blue;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo > div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px dotted green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+header ul > li {
+  margin-left: 1rem;
+}
+header ul > li:hover {
+  background-color: red;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+/* <!-- hero section  --> */
+.hero {
+  background: url(./Assets/hero.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+
+/* <!-- latest post section  --> */
+
+/* <!-- Recommnedation  --> */
+
+/* <!-- Subscribe Section  --> */
+
+/* <!-- Footer Section  --> */
