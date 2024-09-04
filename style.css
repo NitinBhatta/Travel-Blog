@@ -68,15 +68,45 @@ header ul > li:hover {
 }
 /* <!-- hero section  --> */
 .hero {
-  background: url(./Assets/hero.jpg);
+  background: url(./Assets/hero.jpg) no-repeat center;
   background-size: cover;
   height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  color: white;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.612);
+
+  padding: 32px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content hr {
+  width: 100%;
 }
 
 /* <!-- latest post section  --> */
-
+.latest {
+  background: url(/Assets/b.jpg) no-repeat center;
+}
+.latest > .container {
+}
 /* <!-- Recommnedation  --> */
 
 /* <!-- Subscribe Section  --> */
 
 /* <!-- Footer Section  --> */
+footer {
+  background-color: rgba(0, 0, 0, 0.354);
+  color: white;
+  padding: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
