@@ -1,5 +1,7 @@
 :root {
-  --shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.831);
+  --secondary: skyblue;
+  --tertiary: orangered;
+  --shadow: -5px 5px 10px 5px rgba(145, 142, 142, 0.831);
 }
 
 body {
@@ -11,6 +13,16 @@ body {
 .container {
   width: 80%;
   margin: auto;
+}
+.btn {
+  background-color: var(--secondary);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+.btn:hover {
+  cursor: pointer;
 }
 
 /* <!-- global message --> */
@@ -118,7 +130,7 @@ article {
   margin-bottom: 24px;
   padding: 20px 16px;
 }
-.btn {
+article.btn {
   float: right;
 }
 
