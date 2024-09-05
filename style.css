@@ -111,6 +111,7 @@ header ul > li:hover {
 }
 .main {
   display: flex;
+  padding: 0 120px;
 }
 
 .articles {
@@ -132,6 +133,7 @@ article {
 }
 article .btn {
   float: right;
+  background-color: var(--tertiary);
 }
 
 .side-links {
