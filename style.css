@@ -130,7 +130,7 @@ article {
   margin-bottom: 24px;
   padding: 20px 16px;
 }
-article.btn {
+article .btn {
   float: right;
 }
 
