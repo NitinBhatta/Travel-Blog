@@ -1,6 +1,6 @@
-/* :root{
-    --primarycolor
-} */
+:root {
+  --shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.831);
+}
 
 body {
   margin: 0;
@@ -16,6 +16,7 @@ body {
 /* <!-- global message --> */
 .global {
   background: skyblue;
+  padding: 10px 0;
 }
 .global > div {
   display: flex;
@@ -101,12 +102,29 @@ header ul > li:hover {
 }
 
 .articles {
-  background-color: red;
   width: 66%;
 }
+article .art-img {
+  width: 350px;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.826);
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 20px 16px;
+}
+.btn {
+  float: right;
+}
+
 .side-links {
   background-color: blue;
-  width: 34%;
+  /* width: 34%; */
 }
 
 /* <!-- Recommnedation  --> */
