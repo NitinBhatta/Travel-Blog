@@ -111,7 +111,8 @@ header ul > li:hover {
 }
 .main {
   display: flex;
-  padding: 0 120px;
+  /* margin: auto; */
+  gap: 1rem;
 }
 
 .articles {
@@ -138,10 +139,10 @@ article .btn {
 
 .side-links {
   background-color: blue;
-  /* width: 34%; */
-}
 
-/* <!-- Recommnedation  --> */
+  width: 34%;
+}
+/* <!-- Recommenedation  --> */
 
 /* <!-- Subscribe Section  --> */
 
