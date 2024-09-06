@@ -139,8 +139,19 @@ article .btn {
 }
 
 .side-links {
-  background-color: blue;
   width: 34%;
+}
+.country {
+  background-color: rgba(153, 205, 50, 0.603);
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.date {
+  background-color: rgba(153, 205, 50, 0.603);
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 32px;
 }
 /* <!-- Recommenedation  --> */
 
