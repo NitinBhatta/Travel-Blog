@@ -154,6 +154,9 @@ article .btn {
   margin-bottom: 32px;
 }
 /* <!-- Recommendation  --> */
+.rect-first {
+  display: flex;
+}
 
 /* <!-- Subscribe Section  --> */
 
