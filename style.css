@@ -153,8 +153,12 @@ article .btn {
   border-radius: 10px;
   margin-bottom: 32px;
 }
-/* <!-- Recommenedation  --> */
-
+/* <!-- Recommendation  --> */
+.recommend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* <!-- Subscribe Section  --> */
 
 /* <!-- Footer Section  --> */
