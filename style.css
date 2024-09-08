@@ -156,6 +156,7 @@ article .btn {
 /* <!-- Recommendation  --> */
 .rect-first {
   display: flex;
+  width: 20px;
 }
 
 /* <!-- Subscribe Section  --> */
