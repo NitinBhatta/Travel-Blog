@@ -20,6 +20,7 @@ body {
   border: none;
   border-radius: 5px;
   box-shadow: var(--shadow);
+  color: white;
 }
 .btn:hover {
   cursor: pointer;
@@ -154,11 +155,26 @@ article .btn {
   margin-bottom: 32px;
 }
 /* <!-- Recommendation  --> */
-.rect-first {
+.card-list {
   display: flex;
-  width: 20px;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
+.card {
+  width: 350px;
+  box-shadow: var(--shadow);
+  padding-bottom: 32px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.card .btn {
+  width: 100%;
+  background: var(--tertiary);
+}
 /* <!-- Subscribe Section  --> */
 
 /* <!-- Footer Section  --> */
