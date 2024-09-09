@@ -176,6 +176,21 @@ article .btn {
   background: var(--tertiary);
 }
 /* <!-- Subscribe Section  --> */
+.subs {
+  background-color: var(--secondary);
+  margin-top: 2rem;
+  padding: 32px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subs input {
+  line-height: 40px;
+  padding: 5px 10px;
+  border-style: 1px solid rgba(128, 128, 128, 0.568);
+  border-radius: 10px;
+}
 
 /* <!-- Footer Section  --> */
 footer {
