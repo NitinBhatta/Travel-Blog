@@ -189,7 +189,7 @@ article .btn {
   line-height: 40px;
   padding: 5px 10px;
   border-style: 1px solid rgba(128, 128, 128, 0.568);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* <!-- Footer Section  --> */
@@ -201,10 +201,15 @@ footer {
   margin-top: 30px;
 }
 
-/* media queries  */
-/* min, max  */
-@media (max-width: 992px) {
-  .global {
-    background: green;
+/* ipad view 992px  */
+@media (media < 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
   }
+}
+
+/* phones 550px  */
+
+@media (max-width: 550px) {
 }
